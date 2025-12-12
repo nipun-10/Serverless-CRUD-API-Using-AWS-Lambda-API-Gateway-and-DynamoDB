@@ -1,4 +1,5 @@
-📌 **Serverless CRUD API Using AWS Lambda, API Gateway & DynamoDB**
+📌 <h2><b>SERVERLESS CRUD API USING AWS LAMBDA, API GATEWAY & DYNAMODB</b></h2>
+
 
 This project demonstrates a fully serverless backend built using **AWS Lambda**, **API Gateway**, and **DynamoDB**. The solution follows event-driven design, is infinitely scalable, and requires zero server management. It provides CRUD functionality through RESTful endpoints to create, retrieve, update, and delete users.
 
@@ -234,3 +235,10 @@ curl -X DELETE 'https://your-api.execute-api.amazonaws.com/user?userId=123'
 * Implement Unit Tests using pytest
 
 ---
+
+🤝 Get In Touch
+I am open to discussing cloud architecture, DevOps practices, and potential opportunities.
+
+Email: nipuntyagi983@gmail.com
+LinkedIn: https://www.linkedin.com/in/nipun-bhardwaj-6312a9265
+GitHub: https://github.com/nipun-10
