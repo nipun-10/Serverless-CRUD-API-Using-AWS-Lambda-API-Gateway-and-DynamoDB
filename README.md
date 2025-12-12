@@ -41,6 +41,7 @@ It enhanced my understanding of:
 # ## 🏗️ **Architecture Overview**
 
 ```
+![Architecture Diagram](https://raw.githubusercontent.com/nipun-10/Serverless-CRUD-API-Using-AWS-Lambda-API-Gateway-and-DynamoDB/main/Architecture%20Diagram.png)
 ```
 
 ---
@@ -71,6 +72,7 @@ It enhanced my understanding of:
    * **Primary Key:** `userId` (String)
 4. Click **Create Table**
 
+![DynamoDB Creation](https://raw.githubusercontent.com/nipun-10/Serverless-CRUD-API-Using-AWS-Lambda-API-Gateway-and-DynamoDB/main/DynamoDB_creation.png)
 ---
 
 # ## ✅ **Step 2: Create a Python Lambda Function**
@@ -81,30 +83,17 @@ It enhanced my understanding of:
 4. **Runtime:** Python 3.x
 5. Click **Create Function**
 
+![Lambda Function](https://raw.githubusercontent.com/nipun-10/Serverless-CRUD-API-Using-AWS-Lambda-API-Gateway-and-DynamoDB/main/Lambda_function.png)
 ### **Add DynamoDB Permissions**
 
 1. Open **Configuration → Permissions**
 2. Click the IAM role name
-3. Add this inline policy:
-
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": [
+3. Add this inline policy that allow
         "dynamodb:PutItem",
         "dynamodb:GetItem",
         "dynamodb:Scan",
         "dynamodb:UpdateItem",
         "dynamodb:DeleteItem"
-      ],
-      "Resource": "arn:aws:dynamodb:*:*:table/Users"
-    }
-  ]
-}
-```
 
 ---
 
@@ -112,7 +101,7 @@ It enhanced my understanding of:
 
 Add the Python code inside the Lambda function That perform CURD Operations:
 
-
+![User CRUD API](https://raw.githubusercontent.com/nipun-10/Serverless-CRUD-API-Using-AWS-Lambda-API-Gateway-and-DynamoDB/main/User_CURD_API.png)
 
 ---
 
@@ -132,6 +121,7 @@ Add the Python code inside the Lambda function That perform CURD Operations:
 
 5. Attach integration:
    **Lambda → UserCrudAPI**
+![Edit Item](https://raw.githubusercontent.com/nipun-10/Serverless-CRUD-API-Using-AWS-Lambda-API-Gateway-and-DynamoDB/main/Edit_item.png)
 
 ---
 
