@@ -4,17 +4,17 @@ This project demonstrates a fully serverless backend built using **AWS Lambda**,
 
 ---
 
-# ## ⭐ **Project Summary (Using STAR Method)**
+⭐ **Project Summary (Using STAR Method)**
 
-### **S – Situation**
+**S – Situation**
 
 I wanted to gain hands-on experience with serverless architecture and build a backend service that required **no server provisioning**, could **scale automatically**, and operated on a **pay-per-use** model.
 
-### **T – Task**
+ **T – Task**
 
 My goal was to design and deploy a complete **CRUD API** using fully managed AWS components. The system needed secure access controls, clean routing, logging, and error handling.
 
-### **A – Action**
+ **A – Action**
 
 * Designed CRUD logic in **AWS Lambda (Python)**
 * Created REST endpoints using **API Gateway HTTP APIs**
@@ -25,7 +25,7 @@ My goal was to design and deploy a complete **CRUD API** using fully managed AWS
 * Tested all endpoints using **Postman** and **cURL**
 * Implemented error handling & logging across functions
 
-### **R – Result**
+ **R – Result**
 
 The outcome was a **100% serverless, auto-scaling, cost-efficient backend API**.
 It enhanced my understanding of:
@@ -41,7 +41,7 @@ It enhanced my understanding of:
 # ## 🏗️ **Architecture Overview**
 
 ```
-![Architecture Diagram](https://raw.githubusercontent.com/nipun-10/Serverless-CRUD-API-Using-AWS-Lambda-API-Gateway-and-DynamoDB/main/Architecture%20Diagram.png)
+![Architecture Diagram](https://raw.githubusercontent.com/nipun-10/Serverless-CRUD-API-Using-AWS-Lambda-API-Gateway-and-DynamoDB/main/Architecture_Diagram.png)
 ```
 
 ---
@@ -58,11 +58,11 @@ It enhanced my understanding of:
 
 ---
 
-# # 🚀 **Setup Guide – Step-by-Step**
+🚀 **Setup Guide – Step-by-Step**
 
 ---
 
-# ## ✅ **Step 1: Create a DynamoDB Table**
+ ✅ **Step 1: Create a DynamoDB Table**
 
 1. Open the AWS Console
 2. Navigate to **DynamoDB → Tables → Create Table**
@@ -75,7 +75,7 @@ It enhanced my understanding of:
 ![DynamoDB Creation](https://raw.githubusercontent.com/nipun-10/Serverless-CRUD-API-Using-AWS-Lambda-API-Gateway-and-DynamoDB/main/DynamoDB_creation.png)
 ---
 
-# ## ✅ **Step 2: Create a Python Lambda Function**
+✅ **Step 2: Create a Python Lambda Function**
 
 1. Open **AWS Lambda**
 2. Click **Create Function → Author from Scratch**
@@ -97,7 +97,7 @@ It enhanced my understanding of:
 
 ---
 
-# ## ✅ **Step 3: Add Lambda Code (CRUD Operations)**
+✅ **Step 3: Add Lambda Code (CRUD Operations)**
 
 Add the Python code inside the Lambda function That perform CURD Operations:
 
@@ -105,7 +105,7 @@ Add the Python code inside the Lambda function That perform CURD Operations:
 
 ---
 
-# ## ✅ **Step 4: Create API Gateway**
+✅ **Step 4: Create API Gateway**
 
 1. Open **API Gateway**
 2. Select **Create API → HTTP API → Build**
@@ -125,7 +125,7 @@ Add the Python code inside the Lambda function That perform CURD Operations:
 
 ---
 
-# ## ✅ **Step 5: Deploy the API**
+✅ **Step 5: Deploy the API**
 
 1. Open **Deployments**
 2. Click **Create Deployment**
@@ -141,11 +141,11 @@ https://xyz123.execute-api.us-east-1.amazonaws.com
 
 ---
 
-# # 🧪 **Testing the API Using cURL**
+🧪 **Testing the API Using cURL**
 
 ---
 
-# ## ✅ Windows CMD (uses ^ for multiline commands)
+✅ Windows CMD (uses ^ for multiline commands)
 
 ### **1. Create User (POST)**
 
@@ -213,7 +213,7 @@ curl -X DELETE 'https://your-api.execute-api.amazonaws.com/user?userId=123'
 
 ---
 
-# ## 📌 Key Learning Outcomes
+📌 Key Learning Outcomes
 
 * Building event-driven serverless systems
 * Designing REST APIs with API Gateway
@@ -225,7 +225,7 @@ curl -X DELETE 'https://your-api.execute-api.amazonaws.com/user?userId=123'
 
 ---
 
-# ## 📚 Future Enhancements
+📚 Future Enhancements
 
 * Add Authentication using Cognito
 * Add custom domain + HTTPS via Route 53 & ACM
