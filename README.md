@@ -40,9 +40,9 @@ It enhanced my understanding of:
 
 # ## 🏗️ **Architecture Overview**
 
-```
+
 ![Architecture Diagram](https://raw.githubusercontent.com/nipun-10/Serverless-CRUD-API-Using-AWS-Lambda-API-Gateway-and-DynamoDB/main/Architecture_Diagram.png)
-```
+
 
 ---
 
