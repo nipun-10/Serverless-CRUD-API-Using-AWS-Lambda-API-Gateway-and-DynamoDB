@@ -1,4 +1,4 @@
-📌 <h2><b>SERVERLESS CRUD API USING AWS LAMBDA, API GATEWAY & DYNAMODB</b></h2>
+ <h1 align="center"><b>📌 SERVERLESS CRUD API USING AWS LAMBDA, API GATEWAY & DYNAMODB</b></h1>
 
 
 This project demonstrates a fully serverless backend built using **AWS Lambda**, **API Gateway**, and **DynamoDB**. The solution follows event-driven design, is infinitely scalable, and requires zero server management. It provides CRUD functionality through RESTful endpoints to create, retrieve, update, and delete users.
